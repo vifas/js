@@ -1,77 +1,733 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UTF-8" />
-  <title>Formulário de Login e Registro com HTML5 e CSS3</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-  <div class="container" >
-    <a class="links" id="paracadastro"></a>
-    <a class="links" id="paralogin"></a>
-     
-    <div class="content">      
-      <!--FORMULÁRIO DE LOGIN-->
-      <div id="login">
-        <form method="post" action=""> 
-          <h1>Login</h1> 
-          <p> 
-            <label for="nome_login">Seu nome</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
-          </p>
-           
-          <p> 
-            <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
-          </p>
-           
-          <p> 
-            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-            <label for="manterlogado">Manter-me logado</label>
-          </p>
-           
-          <p> 
-            <input type="submit" value="Logar" /> 
-          </p>
-           
-          <p class="link">
-            Ainda não tem conta?
-            <a href="#paracadastro">Cadastre-se</a>
-          </p>
-        </form>
-      </div>
- 
-      <!--FORMULÁRIO DE CADASTRO-->
-      <div id="cadastro">
-        <form method="post" action=""> 
-          <h1>Cadastro</h1> 
-           
-          <p> 
-            <label for="nome_cad">Seu nome</label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
-          </p>
-           
-          <p> 
-            <label for="email_cad">Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
-          </p>
-           
-          <p> 
-            <label for="senha_cad">Sua senha</label>
-            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
-          </p>
-           
-          <p> 
-            <input type="submit" value="Cadastrar"/> 
-          </p>
-           
-          <p class="link">  
-            Já tem conta?
-            <a href="#paralogin"> Ir para Login </a>
-          </p>
-        </form>
-      </div>
-    </div>
-  </div>  
-</body>
-</html>
+<html lang="pt-BR"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">		<title>Advocacia Rafaela Sionek – Trabalhista Empresarial</title>
+  <meta name="robots" content="max-image-preview:large">
+  <link rel="alternate" type="application/rss+xml" title="Feed para Advocacia Rafaela Sionek »" href="https://sionekadvocacia.com/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Advocacia Rafaela Sionek »" href="https://sionekadvocacia.com/comments/feed/">
+  <!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://sionekadvocacia.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/6wquo2re/g45il.css" media="all">
+  <style id="wp-block-library-theme-inline-css">
+  #start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+  </style>
+  <!-- <link rel='stylesheet' id='twentynineteen-style-css'  href='https://sionekadvocacia.com/wp-content/themes/twentynineteen/style.css?ver=2.1' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/1qfct1yz/g45il.css" media="all">
+  <!-- <link rel='stylesheet' id='twentynineteen-print-style-css'  href='https://sionekadvocacia.com/wp-content/themes/twentynineteen/print.css?ver=2.1' media='print' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/frg2ry5w/g45il.css" media="print">
+  <!-- <link rel='stylesheet' id='elementor-icons-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0' media='all' /> -->
+  <!-- <link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.4.3' media='all' /> -->
+  <!-- <link rel='stylesheet' id='elementor-frontend-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.3' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/ldqb320r/g45il.css" media="all">
+  <style id="elementor-frontend-inline-css">
+  @font-face{font-family:eicons;src:url(https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+  </style>
+  <link rel="stylesheet" id="elementor-post-943-css" href="https://sionekadvocacia.com/wp-content/uploads/elementor/css/post-943.css?ver=1630680456" media="all">
+  <!-- <link rel='stylesheet' id='elementor-pro-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.4.1' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/lb204d46/g45il.css" media="all">
+  <link rel="stylesheet" id="elementor-post-2420-css" href="https://sionekadvocacia.com/wp-content/uploads/elementor/css/post-2420.css?ver=1630680456" media="all">
+  <link rel="stylesheet" id="elementor-post-2426-css" href="https://sionekadvocacia.com/wp-content/uploads/elementor/css/post-2426.css?ver=1630680456" media="all">
+  <link rel="stylesheet" id="elementor-post-2492-css" href="https://sionekadvocacia.com/wp-content/uploads/elementor/css/post-2492.css?ver=1630680456" media="all">
+  <!-- <link rel='stylesheet' id='elementor-icons-ekiticons-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=2.3.6' media='all' /> -->
+  <!-- <link rel='stylesheet' id='ekit-widget-styles-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=2.3.6' media='all' /> -->
+  <!-- <link rel='stylesheet' id='ekit-responsive-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=2.3.6' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/6wst5jup/g45ik.css" media="all">
+  <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFjord+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.8.1" media="all">
+  <!-- <link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' /> -->
+  <!-- <link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' /> -->
+  <!-- <link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/k24njndk/g45iw.css" media="all">
+  <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/PdoyIVkd8v16xl_NMp3H0N1Y/recaptcha__pt_br.js" crossorigin="anonymous" integrity="sha384-Qs9Tw6FAIN5Ac/MPOW4X1+51XOpcmqS7rJJghOA0cwxTtS4yVb4Z7gl1Xgf07wQy"></script><script src="//sionekadvocacia.com/wp-content/cache/wpfc-minified/23d9unqd/g45il.js" type="text/javascript"></script>
+  <!-- <script src='https://sionekadvocacia.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script> -->
+  <!-- <script src='https://sionekadvocacia.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script> -->
+  <link rel="https://api.w.org/" href="https://sionekadvocacia.com/wp-json/"><link rel="alternate" type="application/json" href="https://sionekadvocacia.com/wp-json/wp/v2/pages/2420"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sionekadvocacia.com/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sionekadvocacia.com/wp-includes/wlwmanifest.xml"> 
+  <meta name="generator" content="WordPress 5.8.1">
+  <link rel="canonical" href="https://sionekadvocacia.com/">
+  <link rel="shortlink" href="https://sionekadvocacia.com/">
+  <link rel="alternate" type="application/json+oembed" href="https://sionekadvocacia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsionekadvocacia.com%2F">
+  <link rel="alternate" type="text/xml+oembed" href="https://sionekadvocacia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsionekadvocacia.com%2F&amp;format=xml">
+  <style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://sionekadvocacia.com/wp-content/uploads/2020/08/Ativo-3-150x150.png" sizes="32x32">
+  <link rel="icon" href="https://sionekadvocacia.com/wp-content/uploads/2020/08/Ativo-3-300x300.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="https://sionekadvocacia.com/wp-content/uploads/2020/08/Ativo-3-300x300.png">
+  <meta name="msapplication-TileImage" content="https://sionekadvocacia.com/wp-content/uploads/2020/08/Ativo-3-300x300.png">
+  <style id="wp-custom-css">
+  .elementor-location-single{
+  margin-top:0px!important;
+  }		</style>
+  </head>
+  <body data-rsssl="1" class="home page-template page-template-elementor_header_footer page page-id-2420 wp-custom-logo wp-embed-responsive singular image-filters-enabled elementor-default elementor-template-full-width elementor-kit-943 elementor-page elementor-page-2420">
+  <div data-elementor-type="header" data-elementor-id="2426" class="elementor elementor-2426 elementor-location-header" data-elementor-settings="[]">
+  <div class="elementor-section-wrap">
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-2c6af36 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2c6af36" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58e643a elementor-hidden-phone" data-id="58e643a" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-4bd64a0 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4bd64a0" data-element_type="widget" data-widget_type="icon-list.default">
+  <div class="elementor-widget-container">
+  <ul class="elementor-icon-list-items elementor-inline-items">
+  <li class="elementor-icon-list-item elementor-inline-item">
+  <a href="https://api.whatsapp.com/send?phone=5541997144901&amp;text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20Sionek%20Advocacia.%20Como%20proceder%3F" target="_blank">
+  <span class="elementor-icon-list-icon">
+  <i aria-hidden="true" class="fab fa-whatsapp"></i>						</span>
+  <span class="elementor-icon-list-text"> (41)  99714-4901</span>
+  </a>
+  </li>
+  <li class="elementor-icon-list-item elementor-inline-item">
+  <span class="elementor-icon-list-icon">
+  <i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+  <span class="elementor-icon-list-text"> Curitiba / Rio de Janeiro / Brasília</span>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b8f1dbb" data-id="b8f1dbb" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-bec44f1 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-widget__width-auto elementor-hidden-desktop elementor-hidden-tablet elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="bec44f1" data-element_type="widget" data-widget_type="icon-list.default">
+  <div class="elementor-widget-container">
+  <ul class="elementor-icon-list-items elementor-inline-items">
+  <li class="elementor-icon-list-item elementor-inline-item">
+  <a href="https://api.whatsapp.com/send?phone=5541997144901&amp;text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20Sionek%20Advocacia.%20Como%20proceder%3F" target="_blank">
+  <span class="elementor-icon-list-icon">
+  <i aria-hidden="true" class="fab fa-whatsapp"></i>						</span>
+  <span class="elementor-icon-list-text"> (41)  99714-4901</span>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-f0cf64b elementor-shape-circle e-grid-align-right e-grid-align-mobile-center elementor-widget__width-auto elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="f0cf64b" data-element_type="widget" data-widget_type="social-icons.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-social-icons-wrapper elementor-grid">
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-cbf77f1" href="https://www.instagram.com/sionekadvocacia" target="_blank">
+  <span class="elementor-screen-only">Instagram</span>
+  <i class="fab fa-instagram"></i>					</a>
+  </span>
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-repeater-item-3445be4" href="https://api.whatsapp.com/send?phone=5541997144901&amp;text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20Sionek%20Advocacia.%20Como%20proceder%3F" target="_blank">
+  <span class="elementor-screen-only">Whatsapp</span>
+  <i class="fab fa-whatsapp"></i>					</a>
+  </span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <header class="elementor-section elementor-top-section elementor-element elementor-element-572745c3 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="572745c3" data-element_type="section">
+  <div class="elementor-container elementor-column-gap-no">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-12560523" data-id="12560523" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-594c57a1 elementor-widget elementor-widget-image" data-id="594c57a1" data-element_type="widget" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <a href="https://sionekadvocacia.com">
+  <img width="400" height="80" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_hor_dourada.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy">								</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f455d8c" data-id="5f455d8c" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-13ac566b elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="13ac566b" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<i class=\&quot;fas fa-caret-down\&quot;><\/i>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+  <div class="elementor-widget-container">
+  <nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-shrink"><ul id="menu-1-13ac566b" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2717"><a href="https://sionekadvocacia.com/escritorio/" class="elementor-item">Escritório</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2716"><a href="https://sionekadvocacia.com/equipe/" class="elementor-item">Equipe</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2713"><a href="https://sionekadvocacia.com/atuacao/" class="elementor-item">Atuação</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2718"><a href="https://sionekadvocacia.com/parceria/" class="elementor-item">Parceria</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2714"><a href="https://sionekadvocacia.com/blog/" class="elementor-item">Blog</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2715"><a href="https://sionekadvocacia.com/contato/" class="elementor-item">Contato</a></li>
+  </ul></nav>
+  <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Alternar menu" aria-expanded="false">
+  <i aria-hidden="true" role="presentation" class="eicon-menu-bar"></i>			<span class="elementor-screen-only">Menu</span>
+  </div>
+  <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-13ac566b" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2717"><a href="https://sionekadvocacia.com/escritorio/" class="elementor-item" tabindex="-1">Escritório</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2716"><a href="https://sionekadvocacia.com/equipe/" class="elementor-item" tabindex="-1">Equipe</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2713"><a href="https://sionekadvocacia.com/atuacao/" class="elementor-item" tabindex="-1">Atuação</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2718"><a href="https://sionekadvocacia.com/parceria/" class="elementor-item" tabindex="-1">Parceria</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2714"><a href="https://sionekadvocacia.com/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2715"><a href="https://sionekadvocacia.com/contato/" class="elementor-item" tabindex="-1">Contato</a></li>
+  </ul></nav>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-38609227 elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-button" data-id="38609227" data-element_type="widget" data-widget_type="button.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-button-wrapper">
+  <a href="https://sionekadvocacia.com/contato/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+  <span class="elementor-button-content-wrapper">
+  <span class="elementor-button-text">Contato</span>
+  </span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </header>
+  </div>
+  </div>
+  <div data-elementor-type="wp-page" data-elementor-id="2420" class="elementor elementor-2420" data-elementor-settings="[]">
+  <div class="elementor-inner">
+  <div class="elementor-section-wrap">
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-b43c5b0 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default" data-id="b43c5b0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e1503a1" data-id="e1503a1" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-5a06caf elementor-widget elementor-widget-image" data-id="5a06caf" data-element_type="widget" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="887" height="653" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logotipo_sionek_advocacia.png" class="attachment-full size-full" alt="" loading="lazy">														</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-7116f9f elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="7116f9f" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_effect&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_direction&quot;:&quot;negative&quot;,&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_rotateZ_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;motion_fx_rotateZ_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="640" height="640" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-768x768.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-768x768.png 768w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-300x300.png 300w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-150x150.png 150w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo.png 834w" sizes="(max-width: 640px) 100vw, 640px">														</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-a0f44d5 opacidade10 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="a0f44d5" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_effect&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_rotateZ_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="640" height="640" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-768x768.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-768x768.png 768w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-300x300.png 300w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-150x150.png 150w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo.png 834w" sizes="(max-width: 640px) 100vw, 640px">														</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-33b9de9 elementor-absolute elementor-view-default elementor-widget elementor-widget-icon" data-id="33b9de9" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="icon.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-icon-wrapper">
+  <a class="elementor-icon" href="#next">
+  <i aria-hidden="true" class="icon icon-chevron-down"></i>			</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-1789ba6 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1789ba6" data-element_type="section" id="next">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a82ae3" data-id="6a82ae3" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-4b0157b elementor-widget elementor-widget-image" data-id="4b0157b" data-element_type="widget" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="640" height="653" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/foto-rafa-1.png" class="attachment-large size-large" alt="" loading="lazy">														</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-90f2d9b elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="90f2d9b" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_effect&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_direction&quot;:&quot;negative&quot;,&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_rotateZ_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;motion_fx_rotateZ_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="640" height="640" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-768x768.png" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-768x768.png 768w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-300x300.png 300w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo-150x150.png 150w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_sionek_circulo.png 834w" sizes="(max-width: 640px) 100vw, 640px">														</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bd4d36d" data-id="bd4d36d" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-f21ca9e elementor-widget elementor-widget-text-editor" data-id="f21ca9e" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Rafaela Sionek</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-820f16a elementor-widget elementor-widget-text-editor" data-id="820f16a" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>OAB/PR 57.706</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-cb0aec7 elementor-widget elementor-widget-text-editor" data-id="cb0aec7" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Advogada Trabalhista Empresarial.&nbsp;Sócia do Escritório Sionek Advocacia Empresarial.&nbsp;Atuante no consultivo e preventivo trabalhista em consultorias, auditorias e Compliance Trabalhista. Atuação em Sustentação Oral e Recursos Especiais para Tribunais Superiores.&nbsp;Pós Graduada em Direito e Processo do Trabalho e Direito Previdenciário pela EMATRAPR. Professora de Direito e Processo do Trabalho do CERS.&nbsp;&nbsp;Professora da Escola Superior da Advocacia do Paraná – ESA, do Saber Direito – TV Justiça e ESA/RJ.&nbsp;&nbsp;Professora convidada em cursos de Pós Graduação (IEPREV, UniCuritiba, AJurídica, FESP…).&nbsp;&nbsp;Palestrante de Cursos Práticos de Direito do Trabalho.&nbsp;&nbsp;Membro da Comissão de Direito do Trabalho da OAB/PR.&nbsp;&nbsp;Membro da Comissão de Estudos de Direito do Trabalho e Processo do Trabalho da OAB/RJ.&nbsp;</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-33fea1e elementor-widget elementor-widget-button" data-id="33fea1e" data-element_type="widget" data-widget_type="button.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-button-wrapper">
+  <a href="https://sionekadvocacia.com/escritorio/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-wobble-horizontal" role="button">
+  <span class="elementor-button-content-wrapper">
+  <span class="elementor-button-text">Saiba Mais</span>
+  </span>
+  </a>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-03b0dba elementor-widget elementor-widget-spacer" data-id="03b0dba" data-element_type="widget" data-widget_type="spacer.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-spacer">
+  <div class="elementor-spacer-inner"></div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-6fbe20c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6fbe20c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d480980" data-id="d480980" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-c8bd529 elementor-widget elementor-widget-image" data-id="c8bd529" data-element_type="widget" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="200" height="199" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_dourado.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_dourado.png 200w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_dourado-150x150.png 150w" sizes="(max-width: 200px) 100vw, 200px">														</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-86cd3a4 elementor-widget elementor-widget-text-editor" data-id="86cd3a4" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>conheça mais sobre</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-a196f35 elementor-widget elementor-widget-text-editor" data-id="a196f35" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Sionek Advocacia Empresarial</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-9bffb32 elementor-widget elementor-widget-spacer" data-id="9bffb32" data-element_type="widget" data-widget_type="spacer.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-spacer">
+  <div class="elementor-spacer-inner"></div>
+  </div>
+  </div>
+  </div>
+  <section class="elementor-section elementor-inner-section elementor-element elementor-element-593c1fb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="593c1fb" data-element_type="section">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-31f433d" data-id="31f433d" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-1a06f44 elementor-view-default elementor-widget elementor-widget-icon" data-id="1a06f44" data-element_type="widget" data-widget_type="icon.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-icon-wrapper">
+  <div class="elementor-icon">
+  <i aria-hidden="true" class="icon icon-briefcase"></i>			</div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-725b46a elementor-widget elementor-widget-text-editor" data-id="725b46a" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Atuação</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-1eb5e17 elementor-align-center elementor-widget elementor-widget-button" data-id="1eb5e17" data-element_type="widget" data-widget_type="button.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-button-wrapper">
+  <a href="https://sionekadvocacia.com/atuacao/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-wobble-horizontal" role="button">
+  <span class="elementor-button-content-wrapper">
+  <span class="elementor-button-text">Saiba Mais</span>
+  </span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-9aec2cf" data-id="9aec2cf" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-77c3301 elementor-view-default elementor-widget elementor-widget-icon" data-id="77c3301" data-element_type="widget" data-widget_type="icon.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-icon-wrapper">
+  <div class="elementor-icon">
+  <i aria-hidden="true" class="icon icon-team1"></i>			</div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-6d54f70 elementor-widget elementor-widget-text-editor" data-id="6d54f70" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Equipe</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-ba87f94 elementor-align-center elementor-widget elementor-widget-button" data-id="ba87f94" data-element_type="widget" data-widget_type="button.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-button-wrapper">
+  <a href="https://sionekadvocacia.com/equipe/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-wobble-horizontal" role="button">
+  <span class="elementor-button-content-wrapper">
+  <span class="elementor-button-text">Saiba Mais</span>
+  </span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-be60250" data-id="be60250" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-b27a1fe elementor-view-default elementor-widget elementor-widget-icon" data-id="b27a1fe" data-element_type="widget" data-widget_type="icon.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-icon-wrapper">
+  <div class="elementor-icon">
+  <i aria-hidden="true" class="icon icon-hand_shake"></i>			</div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-8eac890 elementor-widget elementor-widget-text-editor" data-id="8eac890" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Parcerias</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-3c89a00 elementor-align-center elementor-widget elementor-widget-button" data-id="3c89a00" data-element_type="widget" data-widget_type="button.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-button-wrapper">
+  <a href="https://sionekadvocacia.com/parceria/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-wobble-horizontal" role="button">
+  <span class="elementor-button-content-wrapper">
+  <span class="elementor-button-text">Saiba Mais</span>
+  </span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-bb1edbf" data-id="bb1edbf" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-750bd73 elementor-view-default elementor-widget elementor-widget-icon" data-id="750bd73" data-element_type="widget" data-widget_type="icon.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-icon-wrapper">
+  <div class="elementor-icon">
+  <i aria-hidden="true" class="icon icon-contact"></i>			</div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-4778d91 elementor-widget elementor-widget-text-editor" data-id="4778d91" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Contato</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-57473ec elementor-align-center elementor-widget elementor-widget-button" data-id="57473ec" data-element_type="widget" data-widget_type="button.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-button-wrapper">
+  <a href="https://sionekadvocacia.com/contato/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-wobble-horizontal" role="button">
+  <span class="elementor-button-content-wrapper">
+  <span class="elementor-button-text">Saiba Mais</span>
+  </span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-03c3021 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="03c3021" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div class="elementor-container elementor-column-gap-wider">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-93a7280" data-id="93a7280" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-43d9753 elementor-widget elementor-widget-text-editor" data-id="43d9753" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Entre em contato</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-a5cf7d3 elementor-widget elementor-widget-text-editor" data-id="a5cf7d3" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Nosso objetivo é prestar serviços advocatícios de qualidade. Preencha o formulário ou entre em contato através dos telefones abaixo e conheça nosso trabalho.</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-3f1edf6 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3f1edf6" data-element_type="widget" data-widget_type="icon-list.default">
+  <div class="elementor-widget-container">
+  <ul class="elementor-icon-list-items">
+  <li class="elementor-icon-list-item">
+  <a href="https://bit.ly/3iBFKRG" target="_blank">
+  <span class="elementor-icon-list-icon">
+  <i aria-hidden="true" class="icon icon-whatsapp-1"></i>						</span>
+  <span class="elementor-icon-list-text">(41) 99714-4901</span>
+  </a>
+  </li>
+  <li class="elementor-icon-list-item">
+  <span class="elementor-icon-list-icon">
+  <i aria-hidden="true" class="fas fa-map-marked-alt"></i>						</span>
+  <span class="elementor-icon-list-text"><span style="font-size: 13px; white-space: normal;">Curitiba / Rio de Janeiro / Brasília</span></span>
+  </li>
+  </ul>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-d16fd28 elementor-shape-circle e-grid-align-left elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="d16fd28" data-element_type="widget" data-widget_type="social-icons.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-social-icons-wrapper elementor-grid">
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-213c5ec" href="https://www.instagram.com/sionekadvocacia/" target="_blank">
+  <span class="elementor-screen-only">Instagram</span>
+  <i class="fab fa-instagram"></i>					</a>
+  </span>
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-repeater-item-2f23ec8" href="https://api.whatsapp.com/send?phone=5541997144901&amp;text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20Sionek%20Advocacia.%20Como%20proceder%3F" target="_blank">
+  <span class="elementor-screen-only">Whatsapp</span>
+  <i class="fab fa-whatsapp"></i>					</a>
+  </span>
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-af84326" href="https://www.youtube.com/channel/UCwOCrKExZf4N20onaLKvUFQ" target="_blank">
+  <span class="elementor-screen-only">Youtube</span>
+  <i class="fab fa-youtube"></i>					</a>
+  </span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1d0b1c8" data-id="1d0b1c8" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-bd854f1 elementor-widget elementor-widget-text-editor" data-id="bd854f1" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  <p>Campos marcados com * são obrigatórios.</p>					</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-4a2742a elementor-button-align-start elementor-widget elementor-widget-form" data-id="4a2742a" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+  <div class="elementor-widget-container">
+  <form class="elementor-form" method="post" name="New Form">
+  <input type="hidden" name="post_id" value="2420">
+  <input type="hidden" name="form_id" value="4a2742a">
+  <input type="hidden" name="referer_title" value="">
+  <input type="hidden" name="queried_id" value="2420">
+  <div class="elementor-form-fields-wrapper elementor-labels-">
+  <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
+  <label for="form-field-name" class="elementor-field-label elementor-screen-only">Nome</label><input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Digite seu nome*" required="required" aria-required="true">				</div>
+  <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+  <label for="form-field-email" class="elementor-field-label elementor-screen-only">E-mail</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Insira seu e-mail*" required="required" aria-required="true">				</div>
+  <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_51c1bc4 elementor-col-100 elementor-field-required">
+  <label for="form-field-field_51c1bc4" class="elementor-field-label elementor-screen-only">Telefone</label><input size="1" type="tel" name="form_fields[field_51c1bc4]" id="form-field-field_51c1bc4" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Telefone*" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Apenas números e caracteres de telefone (#, -, *, etc.) são aceitos.">				</div>
+  <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+  <label for="form-field-message" class="elementor-field-label elementor-screen-only">Mensagem</label><textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4" placeholder="Motivo do contato"></textarea>				</div>
+  <div class="elementor-field-type-html elementor-field-group elementor-column elementor-field-group-field_b4907b7 elementor-col-100">
+  <p class="texto">Todos os dados preenchidos e/ou informados pelo usuário em nosso site serão mantidos em sigilo e utilizados somente para o propósito que motivou o cadastro, respeitando as diretrizes da Lei Geral de Proteção de Dados – LGPD.</p>				</div>
+  <div class="elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_2354d8a elementor-col-100 recaptcha_v3-bottomright">
+  <div class="elementor-field" id="form-field-field_2354d8a"><div class="elementor-g-recaptcha" data-sitekey="6LeLeusaAAAAADAYQ6cXHdxb6nfLzpaKODIvefJr" data-type="v3" data-action="Form" data-badge="bottomright" data-size="invisible"></div></div>				</div>
+  <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+  <button type="submit" class="elementor-button elementor-size-sm">
+  <span>
+  <span class=" elementor-button-icon">
+  </span>
+  <span class="elementor-button-text">Enviar</span>
+  </span>
+  </button>
+  </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  </div>
+  </div>
+  </div>
+      <div data-elementor-type="footer" data-elementor-id="2492" class="elementor elementor-2492 elementor-location-footer" data-elementor-settings="[]">
+  <div class="elementor-section-wrap">
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-24ded41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="24ded41" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0dca931" data-id="0dca931" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-4345b29 elementor-widget elementor-widget-image" data-id="4345b29" data-element_type="widget" data-widget_type="image.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-image">
+  <img width="200" height="199" src="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_dourado.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_dourado.png 200w, https://sionekadvocacia.com/wp-content/uploads/2021/05/logo_dourado-150x150.png 150w" sizes="(max-width: 200px) 100vw, 200px">														</div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-7d110ed elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="7d110ed" data-element_type="widget" data-widget_type="social-icons.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-social-icons-wrapper elementor-grid">
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-repeater-item-b335b4b" href="https://api.whatsapp.com/send?phone=5541997144901&amp;text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20Sionek%20Advocacia.%20Como%20proceder%3F" target="_blank">
+  <span class="elementor-screen-only">Whatsapp</span>
+  <i class="fab fa-whatsapp"></i>					</a>
+  </span>
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-3df2b5e" href="https://instagram.com/sionekadvocacia" target="_blank">
+  <span class="elementor-screen-only">Instagram</span>
+  <i class="fab fa-instagram"></i>					</a>
+  </span>
+  <span class="elementor-grid-item">
+  <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-f14b4ef" href="https://www.youtube.com/channel/UCwOCrKExZf4N20onaLKvUFQ" target="_blank">
+  <span class="elementor-screen-only">Youtube</span>
+  <i class="fab fa-youtube"></i>					</a>
+  </span>
+  </div>
+  </div>
+  </div>
+  <div class="elementor-element elementor-element-8b46201 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="8b46201" data-element_type="widget" data-widget_type="icon-list.default">
+  <div class="elementor-widget-container">
+  <ul class="elementor-icon-list-items">
+  <li class="elementor-icon-list-item">
+  <a href="https://api.whatsapp.com/send?phone=5541997144901&amp;text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20servi%C3%A7os%20da%20Sionek%20Advocacia.%20Como%20proceder%3F" target="_blank">
+  <span class="elementor-icon-list-icon">
+  <i aria-hidden="true" class="icon icon-whatsapp-1"></i>						</span>
+  <span class="elementor-icon-list-text">(41) 99714-4901</span>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-cf6d636 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cf6d636" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+  <div class="elementor-container elementor-column-gap-default">
+  <div class="elementor-row">
+  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aaf6743" data-id="aaf6743" data-element_type="column">
+  <div class="elementor-column-wrap elementor-element-populated">
+  <div class="elementor-widget-wrap">
+  <div class="elementor-element elementor-element-c2495a8 elementor-widget elementor-widget-text-editor" data-id="c2495a8" data-element_type="widget" data-widget_type="text-editor.default">
+  <div class="elementor-widget-container">
+  <div class="elementor-text-editor elementor-clearfix">
+  SIONEK ADVOCACIA © ALL RIGHTS RESERVED. DESIGN BY B2B&ZeroWidthSpace;					</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  </div>
+  </div>
+  <!-- <link rel='stylesheet' id='e-animations-css'  href='https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.3' media='all' /> -->
+  <link rel="stylesheet" type="text/css" href="//sionekadvocacia.com/wp-content/cache/wpfc-minified/f5owzxzn/g45ik.css" media="all">
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=2.3.6" id="elementskit-framework-js-frontend-js"></script>
+  <script id="elementskit-framework-js-frontend-js-after">
+  var elementskit = {
+  resturl: 'https://sionekadvocacia.com/wp-json/elementskit/v1/',
+  }
+  </script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=2.3.6" id="ekit-widget-scripts-js"></script>
+  <script src="https://sionekadvocacia.com/wp-includes/js/wp-embed.min.js?ver=5.8.1" id="wp-embed-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;ver=3.4.1" id="elementor-recaptcha_v3-api-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.4.1" id="elementor-pro-webpack-runtime-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.3" id="elementor-webpack-runtime-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.3" id="elementor-frontend-modules-js"></script>
+  <script id="elementor-pro-frontend-js-before">
+  var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/sionekadvocacia.com\/wp-admin\/admin-ajax.php","nonce":"5663eff4ea","urls":{"assets":"https:\/\/sionekadvocacia.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/sionekadvocacia.com\/wp-json\/"},"i18n":{"toc_no_headings_found":"N\u00e3o foram encontrados cabe\u00e7alhos nesta p\u00e1gina."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+  "facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/sionekadvocacia.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+  </script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.4.1" id="elementor-pro-frontend-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+  <script src="https://sionekadvocacia.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.3" id="share-link-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
+  <script id="elementor-frontend-js-extra">
+  var PaModulesSettings = {"equalHeight_url":"https:\/\/sionekadvocacia.com\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"};
+  </script>
+  <script id="elementor-frontend-js-before">
+  var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivo m\u00f3vel extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+  "version":"3.4.3","is_static":false,"experimentalFeatures":{"e_import_export":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true},"urls":{"assets":"https:\/\/sionekadvocacia.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2420,"title":"Advocacia%20Rafaela%20Sionek%20%E2%80%93%20Trabalhista%20Empresarial","excerpt":"","featuredImage":false}};
+  </script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.3" id="elementor-frontend-js"></script>
+  <script id="elementor-frontend-js-after">
+  window.scopes_array = {};
+  window.backend = 0;
+  jQuery( window ).on( "elementor/frontend/init", function() {
+  elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+  if ( "undefined" == typeof $scope ) {
+  return;
+  }
+  if ( $scope.hasClass( "premium-equal-height-yes" ) ) {
+  var id = $scope.data("id");
+  window.scopes_array[ id ] = $scope;
+  }
+  if(elementorFrontend.isEditMode()){
+  var url = PaModulesSettings.equalHeight_url;
+  jQuery.cachedAssets = function( url, options ) {
+  // Allow user to set any option except for dataType, cache, and url.
+  options = jQuery.extend( options || {}, {
+  dataType: "script",
+  cache: true,
+  url: url
+  });
+  // Return the jqXHR object so we can chain callbacks.
+  return jQuery.ajax( options );
+  };
+  jQuery.cachedAssets( url );
+  window.backend = 1;
+  }
+  });
+  });
+  jQuery(document).ready(function(){
+  if ( jQuery.find( ".premium-equal-height-yes" ).length < 1 ) {
+  return;
+  }
+  var url = PaModulesSettings.equalHeight_url;
+  jQuery.cachedAssets = function( url, options ) {
+  // Allow user to set any option except for dataType, cache, and url.
+  options = jQuery.extend( options || {}, {
+  dataType: "script",
+  cache: true,
+  url: url
+  });
+  // Return the jqXHR object so we can chain callbacks.
+  return jQuery.ajax( options );
+  };
+  jQuery.cachedAssets( url );
+  });	
+  </script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.4.1" id="pro-preloaded-elements-handlers-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.js?ver=2.3.6" id="animate-circle-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=2.3.6" id="elementskit-elementor-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.3" id="preloaded-modules-js"></script>
+  <script src="https://sionekadvocacia.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.4.1" id="e-sticky-js"></script>
+  <script>
+  /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+  </script>
+  
+  </body></html>
